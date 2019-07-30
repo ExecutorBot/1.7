@@ -1,9 +1,7 @@
-# EXECUTOR V1.6.4
-Bug fixes of 1.6.3
+# EXECUTOR V1.7
+Primary push location for 1.7
 
-Added -tempmute @user num s/m/h/d
-
-
+Planned features for 1.7: -New moderation features -mEmEs? -New storage system (assets.js)
 
 Join the development discord! https://discord.gg/5HA8YAZ
 

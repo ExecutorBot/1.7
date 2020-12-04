@@ -121,7 +121,7 @@ bot.on("message", async message => {
   }, cdseconds * 1000)
 
 });
-let TOKEN = "NDE2MzczMDE3NTkwMTA0MDY1.Wo9Plw.8oi_uTYz5RWs9XWbnW3-4ZKUx_A"
+let TOKEN = "NDE2MzczMDE3NTkwMTA0MDY1.Wo9Plw.ZP-6w7s8WSz7p10PwdWKimRwFRI"
 bot.login(TOKEN);
 
 //const http = require('http');

@@ -1,5 +1,4 @@
 {
- 
   "name": "executor",
   "version": "0.0.1",
   "description": "A simple Node app built on Express, instantly up and running.",
@@ -9,8 +8,9 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "discord.js": "^11.3.2",
-    "express": "^4.16.3"
+    "discord.js": "^11.6.4",
+    "express": "^4.16.3",
+    "ms": "^2.1.2"
   },
   "engines": {
     "node": "8.4.0"

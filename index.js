@@ -121,17 +121,17 @@ bot.on("message", async message => {
   }, cdseconds * 1000)
 
 });
+let TOKEN = "NDE2MzczMDE3NTkwMTA0MDY1.Wo9Plw.8oi_uTYz5RWs9XWbnW3-4ZKUx_A"
+bot.login(TOKEN);
 
-bot.login(process.env.TOKEN);
-
-const http = require('http');
-const express = require('express');
-const app = express();
-app.get("/", (request, response) => {
-  console.log(Date.now() + " Ping Received");
-  response.sendStatus(200);
-});
-app.listen(process.env.PORT);
-setInterval(() => {
-  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
-}, 25000);
+//const http = require('http');
+//const express = require('express');
+//const app = express();
+//app.get("/", (request, response) => {
+//  console.log(Date.now() + " Ping Received");
+//  response.sendStatus(200);
+//});
+//app.listen(process.env.PORT);
+//setInterval(() => {
+//  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
+//}, 25000);
